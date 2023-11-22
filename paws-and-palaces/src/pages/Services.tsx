@@ -5,6 +5,8 @@ import dropSVG from '../assets/undraw_drop_in.svg';
 function Services() {
     return (
         <div className="services">
+            <h1>Services</h1>
+            <br />
             <ul>
                 <li>
                     <img src={houseSVG} alt="house" />
@@ -22,6 +24,8 @@ function Services() {
                     <p>Give your furry friend the gift of adventure with our Dog Walking service! Tailored to your pup's pace and preferences, our experienced walkers turn every stroll into a delightful journey. From neighborhood explorations to park playdates, we prioritize not just exercise, but also the joy of discovery. Watch your dog's tail wag with excitement as our walkers provide not just a walk but an enriching experience, ensuring your four-legged family member stays happy, healthy, and energized!</p>
                 </li>
             </ul>
+            <br />
+            <a className='booking-link'><h2>Book with us now!</h2></a>
         </div>
     );
 }
